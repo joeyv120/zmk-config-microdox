@@ -66,11 +66,11 @@
         layer_3 {
             bindings = <
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-    &kp KP_NLCK   &none         &kp C_BRI_UP  &kp C_VOL_UP  &none             &none         &none         &kp LBRC      &kp RBRC      &kp BACKSLASH
+    &kp KP_NLCK   &none         &kp C_BRI_UP  &kp C_VOL_UP  &bootloader       &none         &none         &kp LBRC      &kp RBRC      &kp BACKSLASH
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
     &kp CLCK      &none         &none         &kp C_MUTE    &none             &none         &none         &kp LPAR      &kp RPAR      &kp APOSTROPHE
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-    &kp SLCK      &none         &kp C_BRI_DN  &kp C_VOL_DN  &none             &none         &none         &kp LBKT      &kp RBKT      &kp GRAVE
+    &kp SLCK      &none         &kp C_BRI_DN  &kp C_VOL_DN  &reset            &none         &none         &kp LBKT      &kp RBKT      &kp GRAVE
 // ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
                                 &none         &trans        &trans            &trans        &trans        &none
 //                                           ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯

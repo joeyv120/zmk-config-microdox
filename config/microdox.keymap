@@ -66,7 +66,7 @@
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
     &kp KP_NLCK   &none         &kp C_BRI_UP  &kp C_VOL_UP  &bootloader       &none         &none         &kp LBRC      &kp RBRC      &kp BACKSLASH
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-    &hm LWIN CLCK %kp LALT      &kp LCTRL     &hm LSHFT C_MUTE    &none       &none         &kp RSHFT     &hm RCTRL LPAR &hm RALT RPAR &hm RWIN APOSTROPHE
+    &hm LWIN CLCK &kp LALT      &kp LCTRL     &hm LSHFT C_MUTE    &none       &none         &kp RSHFT     &hm RCTRL LPAR &hm RALT RPAR &hm RWIN APOSTROPHE
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
     &kp SLCK      &none         &kp C_BRI_DN  &kp C_VOL_DN  &reset            &none         &none         &kp LBKT      &kp RBKT      &kp GRAVE
 // ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯

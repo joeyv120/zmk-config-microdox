@@ -26,18 +26,6 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
-
-        msc: mouse_scroll {
-            // (https://zmk.dev/docs/config/behaviors#two-axis-input)
-            compatable = "zmk,behavior-input-two-axis";
-            #binding-cells = <1>;
-            x-input-code = <INPUT_REL_HWHEEL>;
-            y-input-code = <INPUT_REL_WHEEL>;
-            trigger-period-ms = <16>;
-            delay-ms = <0>;
-            time-to-max-speed-ms = <0>;
-            acceleration-exponent = <1>;
-        };    
     };
 
     keymap {

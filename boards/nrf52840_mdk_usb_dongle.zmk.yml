@@ -1,1 +1,9 @@
-
+file_format: "1"
+id: nrf52840_mdk_usb_dongle
+name: nRF52840 MDK USB Dongle
+type: board
+arch: arm
+outputs:
+  - usb
+  - ble
+url: https://makerdiary.com/products/nrf52840-mdk-usb-dongle

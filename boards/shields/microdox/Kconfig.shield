@@ -1,3 +1,3 @@
 # No whitespace after the comma or in the keyboard name!
-config microdox_dongle
+config SHIELD_MICRODOX_DONGLE
     def_bool $(shields_list_contains,microdox_dongle)

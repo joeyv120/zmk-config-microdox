@@ -13,9 +13,17 @@
 #
 ---
 include:
+  # Left & Right peripherals
   - board: nice_nano_v2
     shield: microdox_left
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
   - board: nice_nano_v2
     shield: microdox_right
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
   - board: nice_nano_v2
+    shield: settings_reset
+  # dongle
+  - board: nrf52840_mdk_usb_dongle
+    shield: microdox_dongle
+  - board: nrf52840_mdk_usb_dongle
     shield: settings_reset
